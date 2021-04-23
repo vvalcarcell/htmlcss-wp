@@ -53,6 +53,14 @@ li {
     background-size: cover;
     background-position: center;
     margin-bottom: 15px;
+    position: relative;
+}
+
+.text {
+    width: 50%;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
 }
 
 main {
