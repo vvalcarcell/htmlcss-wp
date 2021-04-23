@@ -34,9 +34,9 @@ header > img {
 }
 
 nav {
-    background-color: rgb(63, 139, 139);
     margin: 10px 0;
     padding: 10px 0;
+    color: darkgrey;
 }
 
 ul {
@@ -56,26 +56,31 @@ li {
     background-position: center;
     margin-bottom: 15px;
     position: relative;
+    color: beige;
 }
 
-.text {
+.img-text {
     width: 50%;
     position: absolute;
     left: 50px;
     bottom: 50px;
 }
 
-main {
-    background-color: rgb(51, 116, 180);
-}
-
-main section {
-    background-color: rgb(133, 183, 233);
-}
-
 .top {
     margin-bottom: 15px;
     padding: 30px 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 3px;
+}
+
+.description {
+    font-size: 18px;
+    color: darkgrey;
+    font-weight: bold;
 }
 
 .main-container section {
@@ -120,11 +125,25 @@ main section {
 
 h4 {
     margin: 20px 0 10px;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+p {
+    font-size: 18px;
+    color: darkgrey;
 }
 
 
 footer {
     margin: 20px 0 50px;
     text-align: center;
-    background-color: darkmagenta;
+    color: rgba(0, 0, 0, 0.849);
 }
+
+.footer-text::after {
+    content: "\2764";
+    color: rgba(255, 0, 0, 0.904);
+    margin-left: 5px;
+    font-size: 25px;
+}
+
